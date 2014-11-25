@@ -34,7 +34,7 @@ body{
    /*Float all columns to the left with a boarder*/
   float: left;
   padding-right: 50px;
-  border: 1px solid black;
+  border: 0px solid black;
   margin-bottom: 20px;
 }
 
