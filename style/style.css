@@ -10,6 +10,7 @@
 
 body{
 	margin: 0;
+	background-image: url(../images/bedge_grunge_@2X.png);
 }
 
 .wrapper{
@@ -65,6 +66,11 @@ header{
 
 nav li{
 	display: inline;
+	padding-right: 7px;
+}
+
+a {
+	text-decoration: none;
 }
 
 img{
