@@ -11,6 +11,11 @@
 body{
 	margin: 0;
 	background-image: url(../images/bedge_grunge_@2X.png);
+	font-family: Calibri, sans-serif;
+}
+
+h1, h2, h3{
+	font-family: Bree serif, serif;
 }
 
 .wrapper{
@@ -35,7 +40,6 @@ body{
    /*Float all columns to the left with a boarder*/
   float: left;
   padding-right: 50px;
-  border: 0px solid black;
   margin-bottom: 20px;
 }
 
@@ -62,6 +66,7 @@ header{
 	max-width: 1170px;
 	z-index: 1;
 	width: 960px;
+	background-color: #c3c1b5;
 }
 
 nav li{
@@ -71,6 +76,27 @@ nav li{
 
 a {
 	text-decoration: none;
+	color: #5d96af;
+}
+
+.brew{
+	font-size: 24px;
+}
+
+p, a{
+	font-size: 17px;
+}
+
+h1{
+	font-size: 45px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+a:hover{
+	color: #686868;
 }
 
 img{
@@ -88,7 +114,7 @@ input{
 .hero {
   width: 100%;
   height: 400px; 
-  background: url(../images/coffee-beans-logo.png) no-repeat;
+  background: url(../images/coffee-beans-logo.jpg) no-repeat;
   background-size: 100%;
   background-position: center;
   margin-bottom: 20px;
@@ -109,6 +135,7 @@ input{
   width: 120px;
   overflow: hidden;
   padding: 1em;
+  margin-top: -15px
 }
 
 section:after{
@@ -120,6 +147,44 @@ section:after{
 .newsfeed img{
 	height: 125px;
 }
+
+.order{
+	margin-top: 20px;
+	height: 125px;
+	width: 200px;
+	font-size: 24px;
+}
+
+button{
+	border: solid 1px;
+	background: #c3c1b5;
+	width: 150px;
+	height: 35px;
+}
+
+button:hover{
+	color: #686868;
+	border-color: #686868;
+}
+
+.feature img{
+	height: 500px;
+	width:325px;
+}
+
+textarea {
+	width: 400px;
+	height: 215px;
+	font-size: 13px;
+}
+
+input{
+	height: 35px;
+}
+
+
+
+
 
 
 
@@ -177,11 +242,6 @@ section:after{
   width: 100%;
 }
 
-textarea {
-	width: 100%;
-	height: 90px;
-}
-
 /*helper classes*/
 .clear{
 	clear: both;
@@ -222,4 +282,47 @@ textarea {
 .mobile-img{
 	width: auto;
 }
+
+
+
+header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
 }
